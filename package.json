@@ -1,0 +1,27 @@
+{
+  "name": "net_node",
+  "version": "1.0.0",
+  "description": "crash course",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "crash",
+    "course",
+    "node"
+  ],
+  "author": "Tejas",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.0",
+    "morgan": "^1.10.0"
+  }
+}
